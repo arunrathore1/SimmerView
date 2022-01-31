@@ -13,6 +13,8 @@
 		2559738627A835B1000C404A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2559738427A835B1000C404A /* Main.storyboard */; };
 		2559738827A835B5000C404A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2559738727A835B5000C404A /* Assets.xcassets */; };
 		2559738B27A835B5000C404A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2559738927A835B5000C404A /* LaunchScreen.storyboard */; };
+		2559739427A8375B000C404A /* SimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2559739327A8375A000C404A /* SimmerView.swift */; };
+		2559739727A837A1000C404A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2559739627A837A1000C404A /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2559738727A835B5000C404A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2559738A27A835B5000C404A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2559738C27A835B5000C404A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2559739327A8375A000C404A /* SimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimmerView.swift; sourceTree = "<group>"; };
+		2559739627A837A1000C404A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2559738727A835B5000C404A /* Assets.xcassets */,
 				2559738927A835B5000C404A /* LaunchScreen.storyboard */,
 				2559738C27A835B5000C404A /* Info.plist */,
+				2559739327A8375A000C404A /* SimmerView.swift */,
+				2559739627A837A1000C404A /* UIViewExtension.swift */,
 			);
 			path = SimmerView;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2559739727A837A1000C404A /* UIViewExtension.swift in Sources */,
 				2559738327A835B1000C404A /* ViewController.swift in Sources */,
 				2559737F27A835B1000C404A /* AppDelegate.swift in Sources */,
 				2559738127A835B1000C404A /* SceneDelegate.swift in Sources */,
+				2559739427A8375B000C404A /* SimmerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
